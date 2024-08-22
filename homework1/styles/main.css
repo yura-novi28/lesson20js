@@ -1,0 +1,53 @@
+@import url(./reset.css);
+body {
+  font-family: sans-serif;
+}
+
+.container-phone {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  width: 250px;
+  height: 500px;
+  background-image: url(../images/iphonescreen.png);
+  background-size: 250px 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+.phone__title {
+  font-size: 6em;
+  color: #fff;
+}
+.phone__text {
+  font-size: 2em;
+  color: #fff;
+}
+
+.phone-green {
+  margin-top: 5%;
+  width: 249px;
+  height: 495px;
+  background: green;
+  border-radius: 45px;
+  position: relative;
+  overflow: hidden;
+}
+
+.timer {
+  margin-top: 1px;
+  width: 248px;
+  height: 0;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}/*# sourceMappingURL=main.css.map */
